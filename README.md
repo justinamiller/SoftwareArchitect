@@ -1,5 +1,4 @@
-# Software Architect
-Become a Better Software Architect
+# Become a Better Software Architect
 
 Several years ago, I was asked: “How have you become a software architect?”. We talked about necessary skills, experience and the amount of time and dedication it took to build up knowledge. Further, I went through the steps which I took, which technologies I have actively worked with or tried out and what I have learned during my professional and non-professional career.
 
