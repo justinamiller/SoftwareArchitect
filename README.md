@@ -2,8 +2,6 @@
 
 Several years ago, I was asked: “How have you become a software architect?”. We talked about necessary skills, experience and the amount of time and dedication it took to build up knowledge. Further, I went through the steps which I took, which technologies I have actively worked with or tried out and what I have learned during my professional and non-professional career.
 
-This conversation has triggered myself and I started to structure the topic for my personal growth. “What makes a good software architect?”, I wondered, and “How can I improve to become a better software architect?”. I read articles and books, and of course talked with peers. Today, I want to share an overview of my insights with you, which skills I think are most important and how to improve them to become a (better) software architect.
-
 # What is a Software Architect?
 Before we dive into details, let’s have a look at two definitions first.
 
