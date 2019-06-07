@@ -5,12 +5,10 @@ Several years ago, I was asked: “How have you become a software architect?”.
 # What is a Software Architect?
 Before we dive into details, let’s have a look at two definitions first.
 
-````
-A software architect is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms. The leading expert is referred to as the chief architect. 
+* A software architect is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms. The leading expert is referred to as the chief architect. 
 (Source: Wikipedia: Software Architect)
-Software architecture is the fundamental organization of a system, represented by its components, their relationships to each other and to the environment, and the principles that determine the design and evolution of the system. 
+* Software architecture is the fundamental organization of a system, represented by its components, their relationships to each other and to the environment, and the principles that determine the design and evolution of the system. 
 (Source: Handbook of Software Architecture)
-````
 
 # Levels of Architecture
 Architecture can be done on several “levels” of abstractness. The level influences the importance of necessary skills. As there are many possible categorizations possible my favorite segmentation includes these 3 levels:
