@@ -12,15 +12,15 @@ Before we dive into details, let’s have a look at two definitions first.
 
 # Levels of Architecture
 Architecture can be done on several “levels” of abstractness. The level influences the importance of necessary skills. As there are many possible categorizations possible my favorite segmentation includes these 3 levels:
-* Application Level: The lowest level of architecture. Focus on one single application. Very detailed, low level design. Communication usually within one development team.
-* Solution Level: The mid-level of architecture. Focus on one or more applications which fulfill a business need (business solution). Some high, but mainly low-level design. Communication between multiple development teams.
-* Enterprise Level: The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication across the organization.
+* **Application Level**: The lowest level of architecture. Focus on one single application. Very detailed, low level design. Communication usually within one development team.
+* **Solution Level**: The mid-level of architecture. Focus on one or more applications which fulfill a business need (business solution). Some high, but mainly low-level design. Communication between multiple development teams.
+* **Enterprise Level**: The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication across the organization.
 
 Sometimes architects are also seen as “glue” between different stakeholders. Three examples:
 
-* Horizontal: Bridge communication between business and developers or different development teams.
-* Vertical: Bridge communication between developers and managers.
-* Technology: Integrate different technologies or applications with each other
+* **Horizontal**: Bridge communication between business and developers or different development teams.
+* **Vertical**: Bridge communication between developers and managers.
+* **Technology**: Integrate different technologies or applications with each other
 
 # Typical Activities of Software Architects
 To understand the necessary skills an architect needs, we first need to understand typical activities. The following (non-final) list contains from my perspective the most important activities:
