@@ -134,3 +134,4 @@ But please, don’t overdo marketing: In the long term, content is king. If your
 * Repeat It, Believe It: “[…] studies show that repeated exposure to an opinion makes people believe the opinion is more prevalent, even if the source of that opinion is only a single person.” (Source: The Financial Brand) If you publish few messages often enough, it can help to convince people more easily. But be aware: From my perspective such a strategy should be used wisely as it could backfire as a lousy marketing trick.
 
 
+![Architect roadmap](./src/archRoadmap.jpg)
