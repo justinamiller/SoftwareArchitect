@@ -4,6 +4,7 @@
 - [Typical Activities of Software Architects](#typical-activities-of-software-architects)
 - [Important Skills of Software Architects](#important-skills-of-software-architects)
 - [Architect Technology Roadmap](#architect-technology-roadmap)
+- [Books](#Books)
 
 # What is a Software Architect?
 * A software architect is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms.
@@ -54,7 +55,7 @@ To support the laid-out activities specific skills are required. From my experie
 ## (1) Design
 What makes a good design? This is probably the most important and challenging question. I will make a distinction between theory and practice. To my experience, having a mix of both is most valuable. Let’s start with theory:
 
-* **Know the basic design patterns**: Patterns are one of the most important tool an architect needs to have to develop maintainable systems. With patterns you can reuse design to solve common problems with proven solutions. The book “Design Patterns: Elements of Reusable Object-Oriented Software” written by the “Gang of Four” (GoF) is a must read to everyone who is in software development. Although the pattern where published more than 20 years ago they are still the basis of modern software architecture. For example the Model-View-Controller (MVC) pattern was described in this book which is applied in many areas or is the basis for newer pattern, e.g. MVVM.
+* **Know the basic design patterns**: Patterns are one of the most important tool an architect needs to have to develop maintainable systems. With patterns you can reuse design to solve common problems with proven solutions. The book “Design Patterns: Elements of Reusable Object-Oriented Software” written by John Vlissides, Ralph Johnson, Richard Helm, Erich Gamma is a must read to everyone who is in software development. Although the pattern where published more than 20 years ago they are still the basis of modern software architecture. For example the Model-View-Controller (MVC) pattern was described in this book which is applied in many areas or is the basis for newer pattern, e.g. MVVM.
 * **Dig deeper into patterns and anti-pattern**: If you already know all basic GoF patterns, then extend your knowledge with more software design patterns. Or dig deeper into your area of interest. One of my favorite for application integration is the book “Enterprise Integration Patterns” written by Gregor Hohpe. This book is applicable in various areas whenever two applications need to exchange data, whether it is an old school file exchange from some legacy systems or modern Microservice architectures.
 * **Know quality measures**: Defining architecture is not an end. It has reasons why guidelines and coding standards are defined, applied and controlled. You do this because of quality and non-functional requirements. You want to have a system which is maintainable, reliable, adaptable, secure, testable, scaleable, usable, etc. And one piece to achieve all these quality attributes is to apply good architecture work. You could start to learn more about quality measures on wikipedia.
 Theory is important. Practice is equally or even more important if you do not want to become an Ivory Tower Architect.
@@ -66,7 +67,7 @@ Theory is important. Practice is equally or even more important if you do not wa
 ## (2) Decide
 An architect needs to be able to take decisions and guide projects or the entire organization into the right direction.
 
-* **Know what is important**: Do not waste time with unimportant decisions or activities. Learn what is important. To my knowledge there is not a book which has these information (if you know one, please let me know). My personal favorites are these 2 characteristics which I usually consider when evaluating if something is important or not: 
+* **Know what is important**: Do not waste time with unimportant decisions or activities. Learn what is important. To my knowledge there is not a book which has these information. My personal favorites are these 2 characteristics which I usually consider when evaluating if something is important or not: 
   1. Conceptional Integrity: If you decide to do it in one way, stick to it, even if it is sometimes better to do it differently. Usually, this leads to a more straightforward overall concept, eases comprehensibility and eases maintenance. 
   2. Uniformity: If you for example define and apply naming conventions it is not about upper- or lowercase, but to have it applied everywhere in the same way.
 * **Prioritize**: Some decisions are highly critical. If they are not taken early enough workarounds are build up which are often unlikely to be removed later and are a nightmare for maintenance, or worse, developers simply stop working until a decision is taken. In such situations it is sometimes even better to go with a “bad” decision instead of having no decision. But before it comes to this situation, consider prioritizing upcoming decisions. There are different ways to do so. I suggest having a look at the Weighted Shortest Job First (WSJF) model which is widely used within agile software development. Especially the measures time criticality and risk reduction are critical to estimate the priority of architecture decisions.
@@ -143,3 +144,13 @@ But please, don’t overdo marketing: In the long term, content is king. If your
 
 # Architect Technology Roadmap
 ![Architect roadmap](./src/archRoadmap.jpg)
+
+
+# Reference Books
+ * **Refactoring. Improving the Design of Existing Code** by Martin Fowler
+ * **Enterprise Integration Patterns** written by Gregor Hohpe 
+ * **Design Patterns: Elements of Reusable Object-Oriented Software** by John Vlissides, Ralph Johnson, Richard Helm, Erich Gamma
+ * **Experience and Knowledge Management in Software Engineering** by Kurt Schneider
+ * **Clean Code** by Robert C. Martin
+ * **UZMO — Thinking With Your Pen**
+ * **Agile Estimating and Planning** by Mike Cohn
