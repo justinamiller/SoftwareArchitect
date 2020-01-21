@@ -146,8 +146,8 @@ But please, don’t overdo marketing: In the long term, content is king. If your
 ![Architect roadmap](./src/archRoadmap.jpg)
 
 
-# Books
- * **Refactoring. Improving the Design of Existing Code** by Martin Fowle
+# Reference Books
+ * **Refactoring. Improving the Design of Existing Code** by Martin Fowler
  * **Enterprise Integration Patterns** written by Gregor Hohpe 
  * **Design Patterns: Elements of Reusable Object-Oriented Software** by John Vlissides, Ralph Johnson, Richard Helm, Erich Gamma
  * **Experience and Knowledge Management in Software Engineering** by Kurt Schneider
