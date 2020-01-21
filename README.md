@@ -36,7 +36,8 @@ To understand the necessary skills an architect needs, we first need to understa
 * Collaborate with other architects and stakeholders
 * Coach and consult developers
 * Detail out and refine higher level design into lower level design
-__Note: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore, these activities are done over and over again.__
+
+   _Note: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore,     these activities are done over and over again._
 
 # Important Skills of Software Architects
 To support the laid-out activities specific skills are required. From my experience, read books and discussions we can boil this down to these ten skills every software architect should have:
