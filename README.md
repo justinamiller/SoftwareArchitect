@@ -67,7 +67,7 @@ Theory is important. Practice is equally or even more important if you do not wa
 ## (2) Decide
 An architect needs to be able to take decisions and guide projects or the entire organization into the right direction.
 
-* **Know what is important**: Do not waste time with unimportant decisions or activities. Learn what is important. To my knowledge there is not a book which has these information (if you know one, please let me know). My personal favorites are these 2 characteristics which I usually consider when evaluating if something is important or not: 
+* **Know what is important**: Do not waste time with unimportant decisions or activities. Learn what is important. To my knowledge there is not a book which has these information. My personal favorites are these 2 characteristics which I usually consider when evaluating if something is important or not: 
   1. Conceptional Integrity: If you decide to do it in one way, stick to it, even if it is sometimes better to do it differently. Usually, this leads to a more straightforward overall concept, eases comprehensibility and eases maintenance. 
   2. Uniformity: If you for example define and apply naming conventions it is not about upper- or lowercase, but to have it applied everywhere in the same way.
 * **Prioritize**: Some decisions are highly critical. If they are not taken early enough workarounds are build up which are often unlikely to be removed later and are a nightmare for maintenance, or worse, developers simply stop working until a decision is taken. In such situations it is sometimes even better to go with a “bad” decision instead of having no decision. But before it comes to this situation, consider prioritizing upcoming decisions. There are different ways to do so. I suggest having a look at the Weighted Shortest Job First (WSJF) model which is widely used within agile software development. Especially the measures time criticality and risk reduction are critical to estimate the priority of architecture decisions.
@@ -147,9 +147,10 @@ But please, don’t overdo marketing: In the long term, content is king. If your
 
 
 # Books
- * Enterprise Integration Patterns written by Gregor Hohpe 
- * Design Patterns: Elements of Reusable Object-Oriented Software written by John Vlissides, Ralph Johnson, Richard Helm, Erich Gamma
- * Experience and Knowledge Management in Software Engineering by Kurt Schneider
- * Clean Code by Robert C. Martin
- * UZMO — Thinking With Your Pen
- * Agile Estimating and Planning by Mike Cohn
+ * **Refactoring. Improving the Design of Existing Code** by Martin Fowle
+ * **Enterprise Integration Patterns** written by Gregor Hohpe 
+ * **Design Patterns: Elements of Reusable Object-Oriented Software** by John Vlissides, Ralph Johnson, Richard Helm, Erich Gamma
+ * **Experience and Knowledge Management in Software Engineering** by Kurt Schneider
+ * **Clean Code** by Robert C. Martin
+ * **UZMO — Thinking With Your Pen**
+ * **Agile Estimating and Planning** by Mike Cohn
