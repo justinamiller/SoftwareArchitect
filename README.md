@@ -92,6 +92,7 @@ Even as an Enterprise Architect, the most abstract level of architecture, you sh
   * Trial: “enterprise should try it in one project that can handle the risk”.
   * Assess: “explore how it affects your enterprise” 
   * Hold: “process with caution”. 
+  
 With this categorization it is easier to get an overview of new things and their readiness to better evaluate which trend to explore next.
 
 ## (5) Document
