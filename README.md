@@ -3,7 +3,7 @@
 - [Levels of Architecture](#levels-of-architecture)
 - [Typical Activities of Software Architects](#typical-activities-of-software-architects)
 - [Important Skills of Software Architects](#important-skills-of-software-architects)
-- [Architect Technology Roadmap](#architect-technology-roadmap)
+- [Architect Technology Roadmap](#architects-technology-roadmap)
 - [Books](#Books)
 
 # What is a Software Architect?
