@@ -4,7 +4,7 @@
 - [Typical Activities of Software Architects](#typical-activities-of-software-architects)
 - [Important Skills of Software Architects](#important-skills-of-software-architects)
 - [Architect Technology Roadmap](#architects-technology-roadmap)
-- [Books](#Books)
+- [Books](#Suggested-Books)
 
 # What is a Software Architect?
 * A software architect is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms.
@@ -152,7 +152,7 @@ But please, don’t overdo marketing: In the long term, content is king. If your
 ![Architect roadmap](./src/archRoadmap.jpg)
 
 
-# Referenced Books
+# Suggested Books
  * **Refactoring. Improving the Design of Existing Code** by Martin Fowler
  * **Enterprise Integration Patterns** written by Gregor Hohpe 
  * **Design Patterns: Elements of Reusable Object-Oriented Software** by John Vlissides, Ralph Johnson, Richard Helm, Erich Gamma
