@@ -24,7 +24,7 @@ Sometimes architects are also seen as “glue” between different stakeholders.
 * **Vertical**: Bridge communication between developers and managers.
 * **Technology**: Integrate different technologies or applications with each other
 
-# Typical Activities of Software Architects
+# Typical Activities
 To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:
 
 * Define and decide development technology and platform
@@ -39,7 +39,7 @@ To understand the necessary skills an architect needs, we first need to understa
 
    _Note: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore,     these activities are done over and over again._
 
-# Important Skills of Software Architects
+# Important Skills
 To support the laid-out activities specific skills are required. From my experience, read books and discussions we can boil this down to these ten skills every software architect should have:
   * Design
   * Decide
