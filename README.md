@@ -1,10 +1,11 @@
 ## Contents
 - [What is a Software Architect](#what-is-a-software-architect)
 - [Levels of Architecture](#levels-of-architecture)
-- [Typical Activities of Software Architects](#typical-activities-of-software-architects)
-- [Important Skills of Software Architects](#important-skills-of-software-architects)
+- [Typical Activities](#typical-activities)
+- [Important Skills](#important-skills)
 - [Architect Technology Roadmap](#architects-technology-roadmap)
-- [Suggested Books](#Suggested-Books)
+- [Types of Solution Architects](#types-of-solution-architects)
+- [Suggested Books](#suggested-books)
 
 # What is a Software Architect?
 * A software architect is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms.
@@ -150,6 +151,9 @@ But please, don’t overdo marketing: In the long term, content is king. If your
 
 # Architect's Technology Roadmap
 ![Architect roadmap](./src/archRoadmap.jpg)
+
+# Types of Solution Architects
+![TypesSolution](./src/typesofsolutionarchitects.jpg)
 
 
 # Suggested Books
