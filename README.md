@@ -1,10 +1,11 @@
 ## Contents
 - [What is a Software Architect](#what-is-a-software-architect)
 - [Levels of Architecture](#levels-of-architecture)
-- [Typical Activities of Software Architects](#typical-activities-of-software-architects)
-- [Important Skills of Software Architects](#important-skills-of-software-architects)
+- [Typical Activities](#typical-activities)
+- [Important Skills](#important-skills)
 - [Architect Technology Roadmap](#architects-technology-roadmap)
-- [Suggested Books](#Suggested-Books)
+- [Types of Solution Architects](#types-of-solution-architects)
+- [Suggested Books](#suggested-books)
 
 # What is a Software Architect?
 * A software architect is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms.
@@ -24,7 +25,7 @@ Sometimes architects are also seen as “glue” between different stakeholders.
 * **Vertical**: Bridge communication between developers and managers.
 * **Technology**: Integrate different technologies or applications with each other
 
-# Typical Activities of Software Architects
+# Typical Activities
 To understand the necessary skills an architect needs, we first need to understand typical activities. The following list contains from my perspective the most important activities:
 
 * Define and decide development technology and platform
@@ -39,7 +40,7 @@ To understand the necessary skills an architect needs, we first need to understa
 
    _Note: Architecture is a continuous activity, especially when it is applied in agile software development. Therefore,     these activities are done over and over again._
 
-# Important Skills of Software Architects
+# Important Skills
 To support the laid-out activities specific skills are required. From my experience, read books and discussions we can boil this down to these ten skills every software architect should have:
   * Design
   * Decide
@@ -150,6 +151,9 @@ But please, don’t overdo marketing: In the long term, content is king. If your
 
 # Architect's Technology Roadmap
 ![Architect roadmap](./src/archRoadmap.jpg)
+
+# Types of Solution Architects
+![TypesSolution](./src/typesofsolutionarchitects.jpg)
 
 
 # Suggested Books
