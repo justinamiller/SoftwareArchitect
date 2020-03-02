@@ -1,16 +1,26 @@
 ## Contents
-- [What is a Software Architect](#what-is-a-software-architect)
+- [What is a Software Architect?](#what-is-a-software-architect)
 - [Levels of Architecture](#levels-of-architecture)
 - [Typical Activities](#typical-activities)
 - [Important Skills](#important-skills)
-- [Architect Technology Roadmap](#architects-technology-roadmap)
+  - [(1) Design](#1-design)
+  - [(2) Decide](#2-decide)
+  - [(3) Simplify](#3-simplify)
+  - [(4) Code](#4-code)
+  - [(5) Document](#5-document)
+  - [(6) Communicate](#6-communicate)
+  - [(7) Estimate and Evaluate](#7-estimate-and-evaluate)
+  - [(8) Balance](#8-balance)
+  - [(9) Consult and Coach](#9-consult-and-coach)
+  - [(10) Market](#10-market)
+- [Architect's Technology Roadmap](#architects-technology-roadmap)
 - [Types of Solution Architects](#types-of-solution-architects)
 - [Suggested Books](#suggested-books)
 
 # What is a Software Architect?
 * A software architect is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms.
 _(Source: Wikipedia: Software Architect)_
-* Software architecture is the fundamental organization of a system, represented by its components, their relationships to each other and to the environment, and the principles that determine the design and evolution of the system. 
+* Software architecture is the fundamental organization of a system, represented by its components, their relationships to each other and to the environment, and the principles that determine the design and evolution of the system.
 _(Source: Handbook of Software Architecture)_
 
 # Levels of Architecture
@@ -58,7 +68,7 @@ What makes a good design? This is probably the most important and challenging qu
 
 * **Know the basic design patterns**: Patterns are one of the most important tools an architect needs to have to develop maintainable systems. With patterns you can reuse designs to solve common problems with proven solutions. The book “Design Patterns: Elements of Reusable Object-Oriented Software” written by John Vlissides, Ralph Johnson, Richard Helm, Erich Gamma is a must-read to everyone who is in software development. Although the patterns were published more than 20 years ago they are still the basis of modern software architecture. For example, the Model-View-Controller (MVC) pattern was described in this book, which is applied in many areas or is the basis for newer pattern, e.g. Model-View-ViewModel (MVVM).
 * **Dig deeper into patterns and anti-patterns**: If you already know all basic Gang-of-Four patterns, then extend your knowledge with more software design patterns or dig deeper into your area of interest. One of my favorite books about application integration is “Enterprise Integration Patterns” written by Gregor Hohpe. This book is applicable in various areas whenever two applications need to exchange data, whether it is an old-school file exchange from some legacy systems or a modern microservice architecture.
-* **Know quality measures**: Defining architecture is not the end. There are reasons why guidelines and coding standards are defined, applied and controlled. You do this because of quality and non-functional requirements. You want to have a system which is maintainable, reliable, adaptable, secure, testable, scaleable, usable, etc. And one piece to achieving all of these quality attributes is applying good architecture work. You can start to learn more about quality measures on Wikipedia.
+* **Know quality measures**: Defining architecture is not the end. There are reasons why guidelines and coding standards are defined, applied and controlled. You do this because of quality and non-functional requirements. You want to have a system which is maintainable, reliable, adaptable, secure, testable, scalable, usable, etc. And one piece to achieving all of these quality attributes is applying good architecture work. You can start to learn more about quality measures on Wikipedia.
 Theory is important. Practice is equally—or even more—important if you do not want to become an Ivory Tower Architect.
 * **Try out and understand different technology stacks**: I think this is the most important activity if you want to become a better architect. Try out (new) technology stacks and learn their ups and downs. Different or new technology comes with different design aspects and patterns. You most likely do not learn anything from just flipping through abstract slides but by trying it out by yourself and feeling the pain or the relief. An architect should not only have broad, but—also in some areas—deep knowledge. It is not important to master all technology stacks but to have a solid understanding of the most important in your area. Also, try out technology which is not in your area, e.g., if you are deep into SAP R/3 you should also try JavaScript and vice versa. Still, both parties will be surprised about the latest advances in SAP S/4 Hana. For example, you can try it by yourself and take a course at openSAP for free. Be curious and try out new things. Also try out stuff which you did not like some years ago.
 * **Analyze and understand applied patterns**: Have a look at any current framework, e.g., Angular. You can study a lot of patterns in practice, e.g., Observables. Try to understand how it is applied in the framework, why it was done. And if you are really dedicated, have a deeper look into the code and understand how it was implemented.
@@ -67,8 +77,8 @@ Theory is important. Practice is equally—or even more—important if you do no
 ## (2) Decide
 An architect needs to be able to take decisions and guide projects or the entire organization into the right direction.
 
-* **Know what is important**: Do not waste time with unimportant decisions or activities. Learn what is important. To my knowledge there is not a book which has these information. My personal favorites are these 2 characteristics which I usually consider when evaluating if something is important or not: 
-  1. Conceptional Integrity: If you decide to do it in one way, stick to it, even if it is sometimes better to do it differently. Usually, this leads to a more straightforward overall concept, eases comprehensibility and eases maintenance. 
+* **Know what is important**: Do not waste time with unimportant decisions or activities. Learn what is important. To my knowledge there is not a book which has these information. My personal favorites are these 2 characteristics which I usually consider when evaluating if something is important or not:
+  1. Conceptional Integrity: If you decide to do it in one way, stick to it, even if it is sometimes better to do it differently. Usually, this leads to a more straightforward overall concept, eases comprehensibility and eases maintenance.
   2. Uniformity: If you for example define and apply naming conventions it is not about upper- or lowercase, but to have it applied everywhere in the same way.
 * **Prioritize**: Some decisions are highly critical. If they are not taken early enough workarounds are build up which are often unlikely to be removed later and are a nightmare for maintenance, or worse, developers simply stop working until a decision is taken. In such situations it is sometimes even better to go with a “bad” decision instead of having no decision. But before it comes to this situation, consider prioritizing upcoming decisions. There are different ways to do so. I suggest having a look at the Weighted Shortest Job First (WSJF) model which is widely used within agile software development. Especially the measures time criticality and risk reduction are critical to estimate the priority of architecture decisions.
 * **Know your competence**: Do not decide things which are not in your competence. This is critical as it may ruin your position as architect significantly if not considered. To avoid this, clarify with your peers which responsibilities you have and what is part of your role. If there are more than one architect, then you should respect the level of architecture in which you are currently deployed. As an lower level architect you better come up with suggestions for higher level architecture instead of decisions. Further, I recommend checking critical decisions always with a peer.
@@ -83,19 +93,19 @@ Keep in mind the problem-solving principle Occam’s Razor which states to prefe
 * **Refactoring is not evil**: It is totally ok to start with a more complex solution if no better idea can be found. If the solution is making troubles you can later rethink the solution and apply your learning. Refactoring is not evil. But before you start refactoring, keep in mind to have (1) enough automated tests in place which can ensure the proper functionality of the system and (2) the buy-in from your stakeholders. To learn more about refactoring I suggest reading “Refactoring. Improving the Design of Existing Code” by Martin Fowler.
 
 ## (4) Code
-Even as an Enterprise Architect, the most abstract level of architecture, you should still know what developers are doing on their daily basis. And if you do not understand how this is done, you may face two major problems: 
-  1. Developers won’t accept your sayings. 
+Even as an Enterprise Architect, the most abstract level of architecture, you should still know what developers are doing on their daily basis. And if you do not understand how this is done, you may face two major problems:
+  1. Developers won’t accept your sayings.
   2. You do not understand challenges and needs of developers.
 
 * **Have a side project**: The purpose of this is to try out new technologies and tools to find out how development is done today and in the future. Experience is the combination of observations, emotions and hypothesis (“Experience and Knowledge Management in Software Engineering” by Kurt Schneider). Reading a tutorial or some pros and cons is good. But this is just “book knowledge”. Only if you try out things by yourself you can experience emotions and can built up hypothesis about why something is good or bad. And the longer you work with a technology the better your hypothesis will get. This will help you to take better decisions in your day to day work. As I started programming I had no code completion and only some utility libraries to speed up development. Obviously, with this background I would make wrong decisions today. Today, we have tons of programming languages, frameworks, tools, processes and practices. Only if you have some experience and a rough overview in the major trends you are able to take part of the conversation and to steer development into the right direction.
 * **Find the right things to try out**: You cannot try out everything. This is simply impossible. You need a more structured approach. One source I recently discovered is the [Technology Radar](https://www.thoughtworks.com/radar) from ThoughtWorks. They categorize technologies, tools, platforms, languages and frameworks into four categories:
   * Adopt: “strong feeling to be ready for enterprise usage”.
   * Trial: “enterprise should try it in one project that can handle the risk”.
-  * Assess: “explore how it affects your enterprise” 
+  * Assess: “explore how it affects your enterprise”
   * Hold: “process with caution”.
 
 With this categorization it is easier to get an overview of new things and their readiness to better evaluate which trend to explore next.
-  
+
 
 
 ## (5) Document
@@ -119,15 +129,15 @@ From my observations this is one of the most underestimated skill. If you are br
 ## (7) Estimate and Evaluate
 * **Know basic project management principles**: As architect or lead developer you are often asked for estimates to realize your ideas: How long, how much, how many people, which skills, etc.? Of course, if you plan to introduce new tools or frameworks you need to have an answer for these kind of “management” questions. Initially, you should be able to give a rough estimate, like days, months or years. And do not forget that it is not only about implementing, there are more activities to consider, like requirements engineering, testing and fixing bugs. Therefore, you should know the activities the used software development process. One thing you can apply to get better estimates, is to use past data and derive your prediction from that. If you do not have past data, you can also try approaches such as COCOMO by Barry W. Boehm. If you are deployed in an agile project, learn how to estimate and to plan properly: The book “Agile Estimating and Planning” by Mike Cohn provides a solid overview in this area.
 * **Evaluate “unknown” architecture**: As architect you should also be able to evaluate the suitability of architectures for the current or future context(s). This is not an easy task but you can prepare for it by having a set of questions at hand which are common for every architecture. And it’s not only about architecture but also about how the system is managed, as this also gives you insides about the quality. I suggest to always have some questions prepared and ready to use. Some ideas for general questions:
-  1. Design practices: Which patterns does the architecture follow? Are they consequently and correctly used? Does the design follow a red line or is there an uncontrolled growth? Is there a clear structure and separation of concerns? 
+  1. Design practices: Which patterns does the architecture follow? Are they consequently and correctly used? Does the design follow a red line or is there an uncontrolled growth? Is there a clear structure and separation of concerns?
   2. Development practices: Code guidelines in place and followed? How is the code versioned? Deployment practices?
   3. Quality assurance: Test automation coverage? Static code analysis in place and good results? Peer reviews in place?
   4. Security: Which security concepts are in place? Built-in security? Penetration tests or automated security analysis tools in place and regularly used?
 
 ## (8) Balance
 * **Quality comes at a price**: Earlier I talked about quality and non-functional requirements. If you overdo architecture it will increase costs and probably lower speed of development. You need to balance architectural and functional requirements. Over engineering should be avoided.
-* **Solve contradicting goals**: A classic example of contradicting goals are short- and long-term goals. Projects often tend to build the simplest solution whereas an architect has the long-term vision in mind. Often, the simple solution does not fit into the long-term solution and is at risk to be thrown away later (sunk costs). To avoid implementation into the wrong direction, two things need to be considered: 
-  1. Developers and business need to understand the long term vision and their benefits in order to adapt their solution and 
+* **Solve contradicting goals**: A classic example of contradicting goals are short- and long-term goals. Projects often tend to build the simplest solution whereas an architect has the long-term vision in mind. Often, the simple solution does not fit into the long-term solution and is at risk to be thrown away later (sunk costs). To avoid implementation into the wrong direction, two things need to be considered:
+  1. Developers and business need to understand the long term vision and their benefits in order to adapt their solution and
   2. managers who are responsible for budget need to be involved to understand the financial impact. It is not necessary to have 100% of the long term vision in place directly, but the developed piece should fit into it.
 * **Conflict management**: Architects are often the glue between multiple groups with different backgrounds. This may lead to conflicts on different levels of communication. To find a balanced solution which also reflect long-term, strategic goals, it is often the role of architects to help overcome the conflict. My starting point regarding communication theory was the “Four-Ears Model” of Schulze von Thun. Based on this model a lot can be shown and deducted. But this theory needs some practice, which should be experienced during communication seminars.
 
@@ -142,8 +152,8 @@ Being pro-active is probably the best you can do when it comes to consulting and
 Your ideas are great and you have communicated them well but still nobody wants to follow? Then you probably lack marketing skills.
 
 * **Motivate and convince**: How do companies convince you of buying a product? They demonstrate its value and benefits. But not just with 5 bullet points. They wrap it nicely and make it as easy as possible to digest.
-  1. Prototypes: Show a prototype of your idea. There are plenty of tools for creating prototypes. In the context of enterprises who love SAP check out build.me in which you can create nice looking and clickable UI5 apps fast and easy. 
-  2. Show a video: Instead of “boring slides” you can also show a video which demonstrates your idea or at least the direction. 
+  1. Prototypes: Show a prototype of your idea. There are plenty of tools for creating prototypes. In the context of enterprises who love SAP check out build.me in which you can create nice looking and clickable UI5 apps fast and easy.
+  2. Show a video: Instead of “boring slides” you can also show a video which demonstrates your idea or at least the direction.
 But please, don’t overdo marketing: In the long term, content is king. If your words do not come true, this will damage your reputation in the long term.
 * **Fight for your ideas and be persistent**: People sometime do not like your ideas or they are just too lazy to follow them. If you are really convinced by your ideas, you should continuously go after them and “fight”. This is sometimes necessary. Architecture decisions with long term goals are often not the easiest one’s: Developers do not like them, as they are more complex to develop. Managers do not like them, as they are more expensive in the short term. This is your job to be persistent and to negotiate.
 * **Find allies**: Establishing or enforcing your ideas on your own can be hard or even impossible. Try to find allies who can support and help convincing others. Use your network. If you do not have one yet, start building it now. You could start by talking to your (open-minded) peers about your ideas. If they like it, or at least parts of it, it is likely that they support your idea if asked by others (“The idea by X was interesting.”). If they don’t like it, ask for the why: Maybe you have missed something? Or your story is not convincing enough? Next step is to find allies with decision power. Ask for an open-minded discussion. If you fear the discussion, remember that sometimes you need to leave your comfort zone.
@@ -159,7 +169,7 @@ But please, don’t overdo marketing: In the long term, content is king. If your
 
 # Suggested Books
  * **Refactoring. Improving the Design of Existing Code** by Martin Fowler
- * **Enterprise Integration Patterns** written by Gregor Hohpe 
+ * **Enterprise Integration Patterns** written by Gregor Hohpe
  * **Design Patterns: Elements of Reusable Object-Oriented Software** by John Vlissides, Ralph Johnson, Richard Helm, Erich Gamma
  * **Experience and Knowledge Management in Software Engineering** by Kurt Schneider
  * **Clean Code** by Robert C. Martin
