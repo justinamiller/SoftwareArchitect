@@ -7,6 +7,10 @@
 - [Types of Solution Architects](#types-of-solution-architects)
 - [Suggested Books](#suggested-books)
 
+## Translations
+- [English](https://github.com/justinamiller/SoftwareArchitect/blob/master/README.md)
+- [Traditional Chinese](https://github.com/NeroCube/software-architect-zh-tw/blob/master/README.md)
+
 # What is a Software Architect?
 * A software architect is a software expert who makes high-level design choices and dictates technical standards, including software coding standards, tools, and platforms.
 _(Source: Wikipedia: Software Architect)_
