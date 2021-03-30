@@ -24,10 +24,10 @@ _(Source: Wikipedia: Software Architect)_
 _(Source: Handbook of Software Architecture)_
 
 # Levels of Architecture
-Architecture can be done on several “levels” of abstractness. The level influences the importance of necessary skills. As there are many possible categorizations possible my favorite segmentation includes these 3 levels:
-* **Application Level**: The lowest level of architecture. Focus on one single application. Very detailed, low level design. Communication usually within one development team.
-* **Solution Level**: The mid-level of architecture. Focus on one or more applications which fulfill a business need (business solution). Some high, but mainly low-level design. Communication between multiple development teams.
-* **Enterprise Level**: The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication across the organization. See [Link](https://github.com/justinamiller/EnterpriseArchitecture) to learn more.
+Architecture can be done on several “levels” of abstractions. The level influences the importance of necessary skills. As there are many categorizations possible my favorite segmentation includes these 3 levels:
+* **Application Level**: The lowest level of architecture. Focus on one single application. Very detailed, low level design. Communication is usually within one development team.
+* **Solution Level**: The mid-level of architecture. Focus on one or more applications which fulfill a business need (business solution). Some high, but mainly low-level design. Communication is between multiple development teams.
+* **Enterprise Level**: The highest level of architecture. Focus on multiple solutions. High level, abstract design, which needs to be detailed out by solution or application architects. Communication is across the organization. See [Link](https://github.com/justinamiller/EnterpriseArchitecture) to learn more.
 
 Sometimes architects are also seen as “glue” between different stakeholders. Three examples:
 
