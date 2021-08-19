@@ -175,3 +175,4 @@ But please, don’t overdo marketing: In the long term, content is king. If your
  * **Clean Code** by Robert C. Martin
  * **UZMO — Thinking With Your Pen**
  * **Agile Estimating and Planning** by Mike Cohn
+ * **Designing Data-Intensive Applications** by - Martin Kleppmann (If you do anything with data, analytics, data science this is a must-read).
