@@ -161,6 +161,8 @@ But please, don’t overdo marketing: In the long term, content is king. If your
 
 
 # Architect's Technology Roadmap
+ * [**Software Architect Roadmap. Complete guide to become a Software Architect**](https://roadmap.sh/software-architect) by Kamran Ahmed.
+
 ![Architect roadmap](./src/archRoadmap.jpg)
 
 # Types of Solution Architects
