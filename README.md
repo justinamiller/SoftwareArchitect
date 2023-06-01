@@ -1,5 +1,3 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=justinamiller.softwarearchitect-badge">
-
 ## Contents
 - [What is a Software Architect?](#what-is-a-software-architect)
 - [Levels of Architecture](#levels-of-architecture)
